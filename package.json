@@ -1,4 +1,10 @@
-{
+{ 
+  "scripts": {
+  "build": "tsc --noEmit",
+  "test": "jest",
+  "lint": "eslint . --ext .js,.ts",
+  "start": "node ./dist/index.js"
+}
   "name": "@notionhq/notion-mcp-server",
   "keywords": [
     "notion",
